@@ -1,0 +1,11 @@
+from pynput.keyboard import Listener
+
+# Esta função será chamada toda vez que você apertar uma tecla
+def ao_pressionar(tecla):
+    print(f"Tecla detectada: {tecla}")
+
+print("Laboratório ativo! Digite algo para testar...")
+
+# O 'Listener' fica 'ouvindo' o teclado em segundo plano
+with Listener(on_press=ao_pressionar) as listener:
+    listener.join()
