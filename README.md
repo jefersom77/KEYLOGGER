@@ -38,8 +38,6 @@ Simulação de um sequestro de dados utilizando criptografia de ponta para demon
 
 ## 📸 Demonstração (Prints do Laboratório)
 
-> *Dica: Substitua os nomes abaixo pelos nomes dos seus arquivos na pasta /images*
-
 ### Keylogger em execução:
 ![Keylogger Executing](images/keylogger_terminal.png)
 
